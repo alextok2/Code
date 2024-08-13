@@ -1,0 +1,635 @@
+Command: show arp
+Executed at: 2024-08-13 11:13:10
+Output:
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  10.6.0.5                -   cc98.91f1.79f6  ARPA   GigabitEthernet3/1/4
+Internet  10.6.0.6              231   a4b2.39c0.9b57  ARPA   GigabitEthernet3/1/4
+Internet  10.6.0.145              -   cc98.91f1.79d5  ARPA   TenGigabitEthernet2/0/4
+Internet  10.6.0.146            170   f8b7.e2ba.8657  ARPA   TenGigabitEthernet2/0/4
+Internet  10.6.16.1               -   cc98.91f1.79e5  ARPA   Vlan307
+Internet  10.6.17.1               -   cc98.91f1.79d4  ARPA   Vlan308
+Internet  10.8.118.129            -   cc98.91f1.79e5  ARPA   Vlan319
+Internet  10.8.118.130            0   Incomplete      ARPA   
+Internet  10.8.118.131            0   Incomplete      ARPA   
+Internet  10.8.134.21           193   643a.ea31.0f3f  ARPA   Port-channel1
+Internet  10.8.134.22             -   cc98.91f1.79cc  ARPA   Port-channel1
+Internet  10.8.134.33             -   cc98.91f1.79e7  ARPA   TenGigabitEthernet1/0/8
+Internet  10.8.134.34           105   1c6a.7ae7.be41  ARPA   TenGigabitEthernet1/0/8
+Internet  10.8.134.65             -   cc98.91f1.79d2  ARPA   TenGigabitEthernet2/0/11
+Internet  10.8.134.66            56   00b8.b3c5.b857  ARPA   TenGigabitEthernet2/0/11
+Internet  10.8.134.73             -   cc98.91f1.79c0  ARPA   TenGigabitEthernet2/0/10
+Internet  10.8.134.74           158   6c41.0ef9.5ee6  ARPA   TenGigabitEthernet2/0/10
+Internet  10.8.135.181            -   cc98.91f1.79f1  ARPA   TenGigabitEthernet2/1/2
+Internet  10.8.135.182          195   a478.0658.1074  ARPA   TenGigabitEthernet2/1/2
+Internet  10.8.135.189            -   cc98.91f1.79e4  ARPA   TenGigabitEthernet2/1/1
+Internet  10.8.135.190          122   28ac.9e6f.a1f4  ARPA   TenGigabitEthernet2/1/1
+Internet  10.8.135.209            -   cc98.91f1.79e0  ARPA   GigabitEthernet3/1/3
+Internet  10.8.161.65             -   cc98.91f1.79cb  ARPA   Vlan995
+Internet  10.8.161.68             2   74e6.e2fb.d82a  ARPA   Vlan995
+Internet  10.8.161.69             2   74e6.e2fb.d8c6  ARPA   Vlan995
+Internet  10.8.161.70             2   74e6.e2fc.030e  ARPA   Vlan995
+Internet  10.8.161.71             2   74e6.e2fb.d8e6  ARPA   Vlan995
+Internet  10.8.161.72            93   44a8.422b.df7e  ARPA   Vlan995
+Internet  10.8.161.73           185   44a8.422b.df7e  ARPA   Vlan995
+Internet  10.8.161.74             2   f48e.38cc.06f0  ARPA   Vlan995
+Internet  10.8.161.75             0   f48e.38cc.08e8  ARPA   Vlan995
+Internet  10.8.161.76             2   f48e.38cb.f852  ARPA   Vlan995
+Internet  10.8.161.77             2   f48e.38cc.0320  ARPA   Vlan995
+Internet  10.8.161.78             2   f48e.38cc.043e  ARPA   Vlan995
+Internet  10.8.161.81             0   0800.1bff.8d96  ARPA   Vlan995
+Internet  10.8.161.82             9   509a.4caf.996e  ARPA   Vlan995
+Internet  10.8.161.83           105   509a.4caf.b9cc  ARPA   Vlan995
+Internet  10.8.161.84            17   509a.4caf.9bb4  ARPA   Vlan995
+Internet  10.8.161.85            11   509a.4caf.7b20  ARPA   Vlan995
+Internet  10.8.161.86             0   f402.70ab.c00a  ARPA   Vlan995
+Internet  10.8.161.87             0   f402.70ab.bfa4  ARPA   Vlan995
+Internet  10.8.161.129            -   cc98.91f1.79fb  ARPA   Vlan978
+Internet  10.8.161.222            0   e0d5.5e9b.d1be  ARPA   Vlan978
+Internet  10.8.161.226            0   b42e.99d9.8a5a  ARPA   Vlan978
+Internet  10.8.161.242            0   80ee.73f5.6ee0  ARPA   Vlan978
+Internet  10.8.161.243            1   a8a1.597c.f9c2  ARPA   Vlan978
+Internet  10.8.161.246            1   d85e.d315.dd04  ARPA   Vlan978
+Internet  10.8.161.247           44   d85e.d315.dc08  ARPA   Vlan978
+Internet  10.8.161.249            0   fcaa.148c.7a26  ARPA   Vlan978
+Internet  10.8.161.251            1   80ee.73f5.6f62  ARPA   Vlan978
+Internet  10.8.161.252            1   201a.0627.4fdc  ARPA   Vlan978
+Internet  10.8.165.1              -   cc98.91f1.79f3  ARPA   Vlan561
+Internet  10.8.165.2            149   0090.e877.ba99  ARPA   Vlan561
+Internet  10.8.165.8             58   18c0.4d85.c4a4  ARPA   Vlan561
+Internet  10.8.165.10             0   18c0.4d80.9cc4  ARPA   Vlan561
+Internet  10.8.165.11             0   a8a1.5989.f3fd  ARPA   Vlan561
+Internet  10.8.165.13             0   1c1b.0d5c.27bb  ARPA   Vlan561
+Internet  10.8.165.14             4   e0d5.5e4c.f51c  ARPA   Vlan561
+Internet  10.8.165.15             4   e0d5.5e0f.aa3d  ARPA   Vlan561
+Internet  10.8.165.18             0   e0d5.5e0c.1c82  ARPA   Vlan561
+Internet  10.8.165.19           175   f079.59da.5412  ARPA   Vlan561
+Internet  10.8.165.20            55   d85e.d315.dd32  ARPA   Vlan561
+Internet  10.8.165.218            0   0002.6306.3d1f  ARPA   Vlan561
+Internet  10.8.165.219           78   f8f0.8202.4d2b  ARPA   Vlan561
+Internet  10.8.165.220           49   00c0.b74e.221d  ARPA   Vlan561
+Internet  10.8.165.221            3   00c0.b722.0813  ARPA   Vlan561
+Internet  10.8.165.222            6   00c0.b722.0815  ARPA   Vlan561
+Internet  10.8.165.223            1   b8f7.4a00.04e6  ARPA   Vlan561
+Internet  10.8.165.224            2   00c0.b74a.a225  ARPA   Vlan561
+Internet  10.8.165.225            0   0002.6306.0389  ARPA   Vlan561
+Internet  10.8.165.226            0   0002.6305.a29a  ARPA   Vlan561
+Internet  10.8.165.229            0   00c0.b722.e573  ARPA   Vlan561
+Internet  10.8.165.230          185   2829.861c.9bc3  ARPA   Vlan561
+Internet  10.8.165.231            1   00c0.b722.53b9  ARPA   Vlan561
+Internet  10.8.165.232          204   2829.861c.9f42  ARPA   Vlan561
+Internet  10.8.165.233          160   2829.861c.9f3b  ARPA   Vlan561
+Internet  10.8.165.234           49   2829.861c.9bd0  ARPA   Vlan561
+Internet  10.8.165.235            9   b42e.9970.1cc6  ARPA   Vlan561
+Internet  10.8.165.241          118   7456.3cc7.3ebb  ARPA   Vlan561
+Internet  10.8.165.242          183   0017.c83e.2acb  ARPA   Vlan561
+Internet  10.8.165.245            3   3c2a.f4ac.1b56  ARPA   Vlan561
+Internet  10.8.165.246            4   18c0.4d16.ecc8  ARPA   Vlan561
+Internet  10.8.165.247           23   0023.2457.efee  ARPA   Vlan561
+Internet  10.8.165.248            1   b42e.9944.ff3d  ARPA   Vlan561
+Internet  10.8.165.249            0   fcaa.1431.e740  ARPA   Vlan561
+Internet  10.8.165.250            0   18c0.4d16.e788  ARPA   Vlan561
+Internet  10.8.165.251            0   0018.bc02.c523  ARPA   Vlan561
+Internet  10.8.175.1              -   cc98.91f1.79ea  ARPA   Vlan703
+Internet  10.8.175.3            160   9077.eeb7.6eea  ARPA   Vlan703
+Internet  10.8.175.4             52   9077.eea5.feea  ARPA   Vlan703
+Internet  10.8.175.5             52   9077.eedb.22ea  ARPA   Vlan703
+Internet  10.8.175.6            122   9077.eebc.c26a  ARPA   Vlan703
+Internet  10.8.175.7             64   acf5.e635.3041  ARPA   Vlan703
+Internet  10.8.175.8             41   ecb1.e04e.4d00  ARPA   Vlan703
+Internet  10.8.175.9              0   6813.e2d1.6740  ARPA   Vlan703
+Internet  10.8.175.10            72   10b3.c64b.fac1  ARPA   Vlan703
+Internet  10.8.175.11            12   cc70.edf9.9dc1  ARPA   Vlan703
+Internet  10.8.175.12           192   689c.e2c4.b643  ARPA   Vlan703
+Internet  10.8.175.13           106   00d7.8f95.908c  ARPA   Vlan703
+Internet  10.8.175.16            18   ec1d.8b4d.73c1  ARPA   Vlan703
+Internet  10.8.175.18           150   a055.4f3b.e041  ARPA   Vlan703
+Internet  10.8.175.19           233   ecc8.82b6.7dc1  ARPA   Vlan703
+Internet  10.8.175.20           186   f8a5.c5fa.c641  ARPA   Vlan703
+Internet  10.8.175.21            19   20cf.ae31.236a  ARPA   Vlan703
+Internet  10.8.175.22             0   6813.e2d1.5680  ARPA   Vlan703
+Internet  10.8.175.24             6   dc7b.941f.cd41  ARPA   Vlan703
+Internet  10.8.175.27             0   f4db.e6c8.3a58  ARPA   Vlan703
+Internet  10.8.175.28             0   4ca6.4dae.cbf0  ARPA   Vlan703
+Internet  10.8.175.29           142   d4ad.7138.5a41  ARPA   Vlan703
+Internet  10.8.175.30             0   Incomplete      ARPA   
+Internet  10.8.175.32           117   d4ad.710b.13c1  ARPA   Vlan703
+Internet  10.8.175.35            89   6c8b.d3e0.8e40  ARPA   Vlan703
+Internet  10.8.175.40           238   0022.5573.3c40  ARPA   Vlan703
+Internet  10.8.175.41           249   8024.8fa1.3200  ARPA   Vlan703
+Internet  10.8.175.42            78   6c03.093f.c041  ARPA   Vlan703
+Internet  10.8.175.43           259   e45a.d47a.0b80  ARPA   Vlan703
+Internet  10.8.175.44           170   a478.06ee.1780  ARPA   Vlan703
+Internet  10.8.175.45            73   045f.b911.84c1  ARPA   Vlan703
+Internet  10.8.175.48             0   5057.a83d.c310  ARPA   Vlan703
+Internet  10.8.175.49             0   a023.9f40.6228  ARPA   Vlan703
+Internet  10.8.175.50             0   2c33.1180.7488  ARPA   Vlan703
+Internet  10.8.175.52             0   2c54.2d60.275b  ARPA   Vlan703
+Internet  10.8.175.54             0   7070.8b74.7eae  ARPA   Vlan703
+Internet  10.8.175.55             0   2cd0.2d3f.4e02  ARPA   Vlan703
+Internet  10.8.175.56             0   2cd0.2d3f.3e60  ARPA   Vlan703
+Internet  10.8.175.57             0   7070.8b74.8ca4  ARPA   Vlan703
+Internet  10.8.175.58             0   00d7.8fac.c850  ARPA   Vlan703
+Internet  10.8.175.59             0   885a.926a.b18d  ARPA   Vlan703
+Internet  10.8.175.60             0   885a.926a.b190  ARPA   Vlan703
+Internet  10.8.175.61             0   0008.3290.0ad8  ARPA   Vlan703
+Internet  10.8.175.62             0   80e8.6fe0.5b68  ARPA   Vlan703
+Internet  10.8.175.63           214   d42c.44c6.8dc1  ARPA   Vlan703
+Internet  10.8.175.65           168   38fd.f87a.33c1  ARPA   Vlan703
+Internet  10.8.175.70           132   643a.ea31.0ea0  ARPA   Vlan703
+Internet  10.8.175.71             5   8c60.4f8d.50e1  ARPA   Vlan703
+Internet  10.8.175.72             5   8c60.4f8c.e4e1  ARPA   Vlan703
+Internet  10.8.175.81            93   0038.df7f.37c1  ARPA   Vlan703
+Internet  10.8.175.83            36   a8b4.56a3.f1ca  ARPA   Vlan703
+Internet  10.8.175.84            42   a8b4.56a3.f0aa  ARPA   Vlan703
+Internet  10.8.175.99             0   Incomplete      ARPA   
+Internet  10.8.175.101            0   Incomplete      ARPA   
+Internet  10.8.175.104            0   a49b.cd46.df90  ARPA   Vlan703
+Internet  10.8.175.105          115   0019.99a5.20ff  ARPA   Vlan703
+Internet  10.8.175.106          113   10f9.20ef.a36c  ARPA   Vlan703
+Internet  10.8.175.107          186   0019.999d.ce66  ARPA   Vlan703
+Internet  10.8.175.111          117   10f9.20ef.a36c  ARPA   Vlan703
+Internet  10.8.175.117            0   045f.b979.8b90  ARPA   Vlan703
+Internet  10.8.175.118            0   f86b.d91b.ceec  ARPA   Vlan703
+Internet  10.8.175.119            0   a488.73a0.228c  ARPA   Vlan703
+Internet  10.8.175.121            0   84f1.47b3.4e58  ARPA   Vlan703
+Internet  10.8.175.123          148   a478.0665.7bc1  ARPA   Vlan703
+Internet  10.8.175.124            0   a488.7389.0ec4  ARPA   Vlan703
+Internet  10.8.175.126            0   80e8.6fe0.3ae0  ARPA   Vlan703
+Internet  10.8.175.129            -   cc98.91f1.79de  ARPA   Vlan728
+Internet  10.8.175.130            0   f8f0.8202.689f  ARPA   Vlan728
+Internet  10.8.175.131            4   00c0.b783.e5da  ARPA   Vlan728
+Internet  10.8.175.133          142   2829.8617.dec9  ARPA   Vlan728
+Internet  10.8.175.134            6   00c0.b7db.bf08  ARPA   Vlan728
+Internet  10.8.175.135           90   2829.8620.ed27  ARPA   Vlan728
+Internet  10.8.175.136            5   00c0.b722.0939  ARPA   Vlan728
+Internet  10.8.175.137            0   b8f7.4a00.0347  ARPA   Vlan728
+Internet  10.8.222.73             -   cc98.91f1.79d1  ARPA   GigabitEthernet3/0/18
+Internet  10.8.222.74           151   00fc.baa6.37c0  ARPA   GigabitEthernet3/0/18
+Internet  10.8.222.93             -   cc98.91f1.79db  ARPA   GigabitEthernet3/0/46
+Internet  161.8.30.1              -   cc98.91f1.79ea  ARPA   Vlan82
+Internet  161.8.63.193            -   cc98.91f1.79e5  ARPA   Vlan227
+Internet  161.8.79.1              -   cc98.91f1.79f4  ARPA   Vlan705
+Internet  161.8.79.2              0   Incomplete      ARPA   
+Internet  161.8.79.3              0   Incomplete      ARPA   
+Internet  161.8.79.7              0   ac1f.6b74.8659  ARPA   Vlan705
+Internet  161.8.79.8             93   ac1f.6b74.8658  ARPA   Vlan705
+Internet  161.8.79.10             0   ecf4.bbdc.5258  ARPA   Vlan705
+Internet  161.8.79.11           102   ecf4.bbde.a820  ARPA   Vlan705
+Internet  161.8.79.13            45   ecf4.bbdc.5259  ARPA   Vlan705
+Internet  161.8.79.17             -   cc98.91f1.79f6  ARPA   Vlan718
+Internet  161.8.79.18             0   0c38.3e12.2ba4  ARPA   Vlan718
+Internet  161.8.79.19             2   c81f.ea72.8462  ARPA   Vlan718
+Internet  161.8.79.20             0   Incomplete      ARPA   
+Internet  161.8.79.21            91   0008.306f.5141  ARPA   Vlan718
+Internet  161.8.79.26             0   c81f.ea5b.9ec1  ARPA   Vlan718
+Internet  161.8.79.28             0   c81f.ea70.ad9a  ARPA   Vlan718
+Internet  161.8.79.29           118   c81f.ead8.916e  ARPA   Vlan718
+Internet  161.8.79.30            56   c81f.ead8.916e  ARPA   Vlan718
+Internet  161.8.108.1             -   cc98.91f1.79e1  ARPA   Vlan108
+Internet  161.8.108.2           213   1078.d24e.65b2  ARPA   Vlan108
+Internet  161.8.108.3             7   0025.909b.df16  ARPA   Vlan108
+Internet  161.8.108.5           237   0026.73da.9f7c  ARPA   Vlan108
+Internet  161.8.108.6             5   74e6.e2dd.0b7e  ARPA   Vlan108
+Internet  161.8.108.9             9   18c0.4d15.b4f5  ARPA   Vlan108
+Internet  161.8.108.10            0   e430.2262.58cb  ARPA   Vlan108
+Internet  161.8.108.11            0   0023.246e.459a  ARPA   Vlan108
+Internet  161.8.108.12            6   d4ea.0e8e.6c58  ARPA   Vlan108
+Internet  161.8.108.13            5   d85e.d315.df1f  ARPA   Vlan108
+Internet  161.8.108.14            0   00c0.eeb1.cb75  ARPA   Vlan108
+Internet  161.8.108.15           72   b42e.990c.0680  ARPA   Vlan108
+Internet  161.8.108.16            1   001b.a98a.69b5  ARPA   Vlan108
+Internet  161.8.108.17            6   3cb1.5b5c.3d50  ARPA   Vlan108
+Internet  161.8.108.18            1   d050.9999.b6f9  ARPA   Vlan108
+Internet  161.8.108.19           69   e0d5.5e0c.1c99  ARPA   Vlan108
+Internet  161.8.108.21            5   b885.84aa.9ebb  ARPA   Vlan108
+Internet  161.8.108.22            1   001b.a9f3.7f5b  ARPA   Vlan108
+Internet  161.8.108.23            0   b42e.990c.4845  ARPA   Vlan108
+Internet  161.8.108.24            1   001b.a9ec.2304  ARPA   Vlan108
+Internet  161.8.108.26            2   d85e.d315.df22  ARPA   Vlan108
+Internet  161.8.108.27           32   a0a3.f090.0671  ARPA   Vlan108
+Internet  161.8.108.28           83   1c1b.0dee.cc37  ARPA   Vlan108
+Internet  161.8.108.29            7   0080.7797.c539  ARPA   Vlan108
+Internet  161.8.108.30            1   c860.0086.2bb3  ARPA   Vlan108
+Internet  161.8.108.31            1   18c0.4d15.a8ba  ARPA   Vlan108
+Internet  161.8.108.32            5   d4ea.0e92.260f  ARPA   Vlan108
+Internet  161.8.108.35            0   902b.3436.ef99  ARPA   Vlan108
+Internet  161.8.108.36            2   18c0.4d17.0131  ARPA   Vlan108
+Internet  161.8.108.37           68   bc22.2864.9ed4  ARPA   Vlan108
+Internet  161.8.108.38            6   0008.9bc7.75fb  ARPA   Vlan108
+Internet  161.8.108.39           61   accc.8e89.0381  ARPA   Vlan108
+Internet  161.8.108.40          198   bc22.2864.9ebf  ARPA   Vlan108
+Internet  161.8.108.41           56   bc22.2864.9f3a  ARPA   Vlan108
+Internet  161.8.108.44            9   18c0.4d15.2f4e  ARPA   Vlan108
+Internet  161.8.108.47            0   000b.8272.778b  ARPA   Vlan108
+Internet  161.8.108.48            6   18c0.4d85.e679  ARPA   Vlan108
+Internet  161.8.108.50            2   18c0.4d15.e303  ARPA   Vlan108
+Internet  161.8.108.51            6   0007.3b93.310c  ARPA   Vlan108
+Internet  161.8.108.52           85   d050.9963.5384  ARPA   Vlan108
+Internet  161.8.108.53            0   f4ce.4684.cd42  ARPA   Vlan108
+Internet  161.8.108.54          121   0000.e016.c9f7  ARPA   Vlan108
+Internet  161.8.108.56            5   ccf9.54a9.fa3c  ARPA   Vlan108
+Internet  161.8.108.57            0   0004.636f.4d98  ARPA   Vlan108
+Internet  161.8.108.58            0   00c0.eeb1.e843  ARPA   Vlan108
+Internet  161.8.108.59           60   e0d5.5e08.01ae  ARPA   Vlan108
+Internet  161.8.108.61            0   0012.79d2.f0c3  ARPA   Vlan108
+Internet  161.8.108.62            0   000b.8264.2b7b  ARPA   Vlan108
+Internet  161.8.108.63            0   4419.b70a.676d  ARPA   Vlan108
+Internet  161.8.108.64           26   1078.d24e.67d3  ARPA   Vlan108
+Internet  161.8.108.67            0   Incomplete      ARPA   
+Internet  161.8.108.68            0   b42e.990c.044c  ARPA   Vlan108
+Internet  161.8.108.69            4   0002.3f69.6115  ARPA   Vlan108
+Internet  161.8.108.70            2   b42e.990b.fccb  ARPA   Vlan108
+Internet  161.8.108.71           61   e430.2267.6396  ARPA   Vlan108
+Internet  161.8.108.73            1   18c0.4d15.e346  ARPA   Vlan108
+Internet  161.8.108.74            3   7456.3cc7.3ebe  ARPA   Vlan108
+Internet  161.8.108.75          206   0012.43bb.87c0  ARPA   Vlan108
+Internet  161.8.108.76            0   001b.a97c.8572  ARPA   Vlan108
+Internet  161.8.108.77          238   18c0.4d84.f8bb  ARPA   Vlan108
+Internet  161.8.108.78            0   18c0.4d16.fa47  ARPA   Vlan108
+Internet  161.8.108.80            1   7456.3cc7.47e7  ARPA   Vlan108
+Internet  161.8.108.83            0   00c0.ee16.bf00  ARPA   Vlan108
+Internet  161.8.108.85            1   00c0.ee1d.7661  ARPA   Vlan108
+Internet  161.8.108.86          247   00c0.ee26.2d9f  ARPA   Vlan108
+Internet  161.8.108.87            4   b42e.990c.0caa  ARPA   Vlan108
+Internet  161.8.108.88            0   00e0.db48.9a17  ARPA   Vlan108
+Internet  161.8.108.89           44   2a97.7fdb.9799  ARPA   Vlan108
+Internet  161.8.108.92           90   00c0.ee27.255c  ARPA   Vlan108
+Internet  161.8.108.93           24   c87f.5404.6426  ARPA   Vlan108
+Internet  161.8.108.94           71   bc0f.9a7e.4c9c  ARPA   Vlan108
+Internet  161.8.108.95            1   00c0.ee1c.18c1  ARPA   Vlan108
+Internet  161.8.108.96           12   00c0.ee27.f1c8  ARPA   Vlan108
+Internet  161.8.108.97            0   00c0.ee18.6e30  ARPA   Vlan108
+Internet  161.8.108.98            0   b42e.990c.069d  ARPA   Vlan108
+Internet  161.8.108.100           0   7456.3cc7.3cde  ARPA   Vlan108
+Internet  161.8.108.101           1   18c0.4d85.d9a3  ARPA   Vlan108
+Internet  161.8.108.103         109   bc0f.9a7e.4da2  ARPA   Vlan108
+Internet  161.8.108.104           1   0019.992c.de88  ARPA   Vlan108
+Internet  161.8.108.105          28   0023.2457.fccf  ARPA   Vlan108
+Internet  161.8.108.106          41   18c0.4d17.0d12  ARPA   Vlan108
+Internet  161.8.108.109           5   18c0.4d84.60b0  ARPA   Vlan108
+Internet  161.8.108.110           2   b42e.990c.0eec  ARPA   Vlan108
+Internet  161.8.108.111           1   00c0.ee8f.2e40  ARPA   Vlan108
+Internet  161.8.108.112          16   0020.6b8d.02db  ARPA   Vlan108
+Internet  161.8.108.113         104   d050.9999.ae09  ARPA   Vlan108
+Internet  161.8.108.114          24   e0d5.5e0f.5b20  ARPA   Vlan108
+Internet  161.8.108.117           0   d050.9999.b6e9  ARPA   Vlan108
+Internet  161.8.108.118         236   bcae.c53e.d7f8  ARPA   Vlan108
+Internet  161.8.108.119          35   001c.58a2.9e2c  ARPA   Vlan108
+Internet  161.8.108.120         183   0000.e116.920a  ARPA   Vlan108
+Internet  161.8.108.123           6   c860.0086.2bd9  ARPA   Vlan108
+Internet  161.8.108.125           3   0023.2457.f131  ARPA   Vlan108
+Internet  161.8.108.126           1   408d.5c22.81e6  ARPA   Vlan108
+Internet  161.8.108.127         133   18c0.4d85.21a5  ARPA   Vlan108
+Internet  161.8.108.128          45   e0d5.5eb1.024f  ARPA   Vlan108
+Internet  161.8.108.130         219   b42e.990b.fcc3  ARPA   Vlan108
+Internet  161.8.108.131         125   0019.9901.142c  ARPA   Vlan108
+Internet  161.8.108.132          30   7085.c220.c181  ARPA   Vlan108
+Internet  161.8.108.134           0   0018.bc01.47bf  ARPA   Vlan108
+Internet  161.8.108.135           0   18c0.4d84.f8a0  ARPA   Vlan108
+Internet  161.8.108.136           1   00c0.0888.d5cb  ARPA   Vlan108
+Internet  161.8.108.137           0   d850.e654.4cda  ARPA   Vlan108
+Internet  161.8.108.138           0   bc5f.f402.95b4  ARPA   Vlan108
+Internet  161.8.108.139         213   7456.3cd9.9383  ARPA   Vlan108
+Internet  161.8.108.140           5   0012.79ce.b407  ARPA   Vlan108
+Internet  161.8.108.142          70   e0d5.5e0c.1d84  ARPA   Vlan108
+Internet  161.8.108.143           6   b4a9.5aab.9006  ARPA   Vlan108
+Internet  161.8.108.144          64   7085.c220.bd0c  ARPA   Vlan108
+Internet  161.8.108.146         241   bc0f.9a7e.4d29  ARPA   Vlan108
+Internet  161.8.108.147         209   30d0.42f7.7372  ARPA   Vlan108
+Internet  161.8.108.149           7   d85e.d3c6.5aa3  ARPA   Vlan108
+Internet  161.8.108.150          58   18c0.4d87.4f47  ARPA   Vlan108
+Internet  161.8.108.151          16   7085.c220.be2e  ARPA   Vlan108
+Internet  161.8.108.153          68   bc0f.9a7e.4d84  ARPA   Vlan108
+Internet  161.8.108.154           4   e0d5.5e4b.349b  ARPA   Vlan108
+Internet  161.8.108.155         261   18c0.4d80.9279  ARPA   Vlan108
+Internet  161.8.108.156          21   c860.0086.2c0a  ARPA   Vlan108
+Internet  161.8.108.158           2   bcae.c53e.d7e7  ARPA   Vlan108
+Internet  161.8.108.159           2   1078.d24e.66a1  ARPA   Vlan108
+Internet  161.8.108.163          95   e0d5.5e4c.f0d9  ARPA   Vlan108
+Internet  161.8.108.167           2   0011.11e7.a2bc  ARPA   Vlan108
+Internet  161.8.108.168         209   6c02.e073.be30  ARPA   Vlan108
+Internet  161.8.108.171           0   d85e.d315.e44e  ARPA   Vlan108
+Internet  161.8.108.172           0   7456.3c87.62ac  ARPA   Vlan108
+Internet  161.8.108.173           0   Incomplete      ARPA   
+Internet  161.8.108.174           1   001b.a9f2.4a14  ARPA   Vlan108
+Internet  161.8.108.175           1   18c0.4d84.6c64  ARPA   Vlan108
+Internet  161.8.108.176           2   0008.e107.1e96  ARPA   Vlan108
+Internet  161.8.108.178           1   001b.a9f2.4a19  ARPA   Vlan108
+Internet  161.8.108.180          41   bc0f.9a7e.4d28  ARPA   Vlan108
+Internet  161.8.108.182           0   000b.8272.75ca  ARPA   Vlan108
+Internet  161.8.108.185           1   18c0.4d85.2344  ARPA   Vlan108
+Internet  161.8.108.186          26   50eb.f69b.bebc  ARPA   Vlan108
+Internet  161.8.108.187          48   e0d5.5eb7.c133  ARPA   Vlan108
+Internet  161.8.108.188         174   bc0f.9a7e.4dbe  ARPA   Vlan108
+Internet  161.8.108.189           0   d050.9963.5378  ARPA   Vlan108
+Internet  161.8.108.191          10   0007.3bbd.75e6  ARPA   Vlan108
+Internet  161.8.108.192         200   d85e.d32f.268b  ARPA   Vlan108
+Internet  161.8.108.193          12   18c0.4d17.086c  ARPA   Vlan108
+Internet  161.8.108.195          32   18c0.4d15.b57e  ARPA   Vlan108
+Internet  161.8.108.197           3   0080.7796.3860  ARPA   Vlan108
+Internet  161.8.108.198           4   c860.0086.2cc8  ARPA   Vlan108
+Internet  161.8.108.201           5   b4a9.5aac.6930  ARPA   Vlan108
+Internet  161.8.108.202           1   18c0.4d17.0869  ARPA   Vlan108
+Internet  161.8.108.203           0   b42e.990c.40d4  ARPA   Vlan108
+Internet  161.8.108.207          18   e0d5.5e01.36eb  ARPA   Vlan108
+Internet  161.8.108.208         168   001e.0b0d.81ef  ARPA   Vlan108
+Internet  161.8.108.209          53   d050.9999.acc1  ARPA   Vlan108
+Internet  161.8.108.210           1   18c0.4d85.51ae  ARPA   Vlan108
+Internet  161.8.108.211           0   d050.9999.b70b  ARPA   Vlan108
+Internet  161.8.108.220           0   000b.8264.2ba8  ARPA   Vlan108
+Internet  161.8.108.221         119   18c0.4d17.09b2  ARPA   Vlan108
+Internet  161.8.108.222           0   0007.3bc0.cc38  ARPA   Vlan108
+Internet  161.8.108.223           6   b4b0.178e.0ed5  ARPA   Vlan108
+Internet  161.8.108.224          39   7085.c220.c169  ARPA   Vlan108
+Internet  161.8.108.226           0   18c0.4d84.c591  ARPA   Vlan108
+Internet  161.8.108.228           6   001c.5856.df7a  ARPA   Vlan108
+Internet  161.8.108.231         199   18c0.4d85.8ff4  ARPA   Vlan108
+Internet  161.8.108.232           3   7456.3cc7.4769  ARPA   Vlan108
+Internet  161.8.108.233          10   c81f.ea6f.77d4  ARPA   Vlan108
+Internet  161.8.108.237          25   50eb.f69f.a12f  ARPA   Vlan108
+Internet  161.8.108.239           7   c81f.ea5b.9c80  ARPA   Vlan108
+Internet  161.8.108.240           9   c81f.ea5c.3fee  ARPA   Vlan108
+Internet  161.8.108.242          56   18c0.4d85.2191  ARPA   Vlan108
+Internet  161.8.108.243         109   e0d5.5e4c.f501  ARPA   Vlan108
+Internet  161.8.108.244           7   c81f.ea5b.9d5c  ARPA   Vlan108
+Internet  161.8.108.245         130   b42e.990c.020f  ARPA   Vlan108
+Internet  161.8.108.246          26   001c.58a2.9863  ARPA   Vlan108
+Internet  161.8.108.247          39   d85e.d3c6.5aeb  ARPA   Vlan108
+Internet  161.8.108.251           3   c81f.ea6f.77f3  ARPA   Vlan108
+Internet  161.8.108.254           0   c87f.5404.63fe  ARPA   Vlan108
+Internet  161.8.154.1             -   cc98.91f1.79e8  ARPA   Vlan697
+Internet  161.8.154.2            12   0013.4991.e3c2  ARPA   Vlan697
+Internet  161.8.154.11            0   e0d5.5e30.8958  ARPA   Vlan697
+Internet  161.8.154.12            1   b42e.9951.7387  ARPA   Vlan697
+Internet  161.8.154.35          108   1c1b.0d5e.7431  ARPA   Vlan697
+Internet  161.8.154.48            0   0018.bc03.4a6c  ARPA   Vlan697
+Internet  161.8.164.1             -   cc98.91f1.79c3  ARPA   Vlan69
+Internet  161.8.164.2             0   Incomplete      ARPA   
+Internet  161.8.164.3             0   Incomplete      ARPA   
+Internet  161.8.164.4             0   Incomplete      ARPA   
+Internet  161.8.164.5             0   Incomplete      ARPA   
+Internet  161.8.164.15            0   Incomplete      ARPA   
+Internet  161.8.165.1             -   cc98.91f1.79d9  ARPA   Vlan35
+Internet  161.8.165.2            62   00a0.c581.9f7c  ARPA   Vlan35
+Internet  161.8.165.141           1   2c41.389c.5e37  ARPA   Vlan35
+Internet  161.8.165.149           0   Incomplete      ARPA   
+Internet  161.8.165.157           0   Incomplete      ARPA   
+Internet  161.8.165.160         232   0090.e881.ecb0  ARPA   Vlan35
+Internet  161.8.165.175          20   e0d5.5e0f.5afa  ARPA   Vlan35
+Internet  161.8.165.176         210   0018.bc00.bb8a  ARPA   Vlan35
+Internet  161.8.165.179           0   d85e.d315.d4c5  ARPA   Vlan35
+Internet  161.8.165.180         151   1c1b.0d5c.2a2a  ARPA   Vlan35
+Internet  161.8.165.182           0   94de.80ef.b6c6  ARPA   Vlan35
+Internet  161.8.165.190          28   7456.3ca1.e4fe  ARPA   Vlan35
+Internet  161.8.165.226           0   000c.7677.0059  ARPA   Vlan35
+Internet  161.8.165.230         249   0090.e804.00a9  ARPA   Vlan35
+Internet  192.168.75.129          -   cc98.91f1.79df  ARPA   Vlan708
+Internet  192.168.75.130          0   Incomplete      ARPA   
+Internet  192.168.115.225         -   cc98.91f1.79f0  ARPA   Vlan723
+Internet  192.168.115.240         1   0200.00f7.a434  ARPA   Vlan723
+Internet  192.168.115.243         1   0200.00c1.19b8  ARPA   Vlan723
+Internet  192.168.115.244       147   0090.e81b.0459  ARPA   Vlan723
+Internet  192.168.115.245       109   0090.e81f.3a26  ARPA   Vlan723
+Internet  192.168.115.246        35   0090.e81b.0429  ARPA   Vlan723
+Internet  192.168.115.247       171   0090.e81b.0661  ARPA   Vlan723
+Internet  192.168.213.1           -   cc98.91f1.79f3  ARPA   Vlan701
+Internet  192.168.213.2           0   accb.5158.8e91  ARPA   Vlan701
+Internet  192.168.213.3           3   807c.6281.0acf  ARPA   Vlan701
+Internet  192.168.213.4           0   807c.6281.0ac9  ARPA   Vlan701
+Internet  192.168.213.5           0   7069.79e2.cfdf  ARPA   Vlan701
+Internet  192.168.213.6           2   7069.79e2.cfe1  ARPA   Vlan701
+Internet  192.168.213.7           0   0200.0031.fedf  ARPA   Vlan701
+Internet  192.168.213.8          63   0004.a341.5904  ARPA   Vlan701
+Internet  192.168.213.9           0   accb.5158.8d3c  ARPA   Vlan701
+Internet  192.168.213.11          0   807c.6281.0ac6  ARPA   Vlan701
+Internet  192.168.213.12        250   0004.a37e.c66f  ARPA   Vlan701
+Internet  192.168.213.13          3   0200.0004.f807  ARPA   Vlan701
+Internet  192.168.213.14          0   accb.5158.8ccf  ARPA   Vlan701
+Internet  192.168.213.15          0   807c.6281.0ac8  ARPA   Vlan701
+Internet  192.168.213.16          0   807c.6281.0ac4  ARPA   Vlan701
+Internet  192.168.213.17          0   accb.5158.8a50  ARPA   Vlan701
+Internet  192.168.213.18          2   7069.79e2.c06d  ARPA   Vlan701
+Internet  192.168.213.19          1   7069.79e2.c16b  ARPA   Vlan701
+Internet  192.168.213.20          0   0200.004a.24a8  ARPA   Vlan701
+Internet  192.168.213.21        200   0004.a315.48d7  ARPA   Vlan701
+Internet  192.168.213.23          3   2432.aeff.7c31  ARPA   Vlan701
+Internet  192.168.213.24          4   98f1.12d6.7f8d  ARPA   Vlan701
+Internet  192.168.213.25          2   7069.79e2.c164  ARPA   Vlan701
+Internet  192.168.213.26          2   7069.79e2.c16a  ARPA   Vlan701
+Internet  192.168.213.27          0   0200.00be.909a  ARPA   Vlan701
+Internet  192.168.213.28         93   0004.a33c.de19  ARPA   Vlan701
+Internet  192.168.213.30          0   807c.6281.0ad1  ARPA   Vlan701
+Internet  192.168.213.31        206   240f.9b36.ab37  ARPA   Vlan701
+Internet  192.168.213.32          1   2432.ae8e.04a4  ARPA   Vlan701
+Internet  192.168.213.33          3   2432.ae8e.047d  ARPA   Vlan701
+Internet  192.168.213.34          1   80be.af4d.a364  ARPA   Vlan701
+Internet  192.168.213.35          0   0854.11e3.e469  ARPA   Vlan701
+Internet  192.168.213.36          0   0854.11e3.e477  ARPA   Vlan701
+Internet  192.168.213.37          0   2432.ae8e.04e7  ARPA   Vlan701
+Internet  192.168.213.38          1   2432.ae8e.0488  ARPA   Vlan701
+Internet  192.168.213.39          1   2432.ae8e.0483  ARPA   Vlan701
+Internet  192.168.213.40          1   0854.11e3.e4b5  ARPA   Vlan701
+Internet  192.168.213.41          0   80be.af4d.a350  ARPA   Vlan701
+Internet  192.168.213.42          0   3085.a93e.59bd  ARPA   Vlan701
+Internet  192.168.213.44          0   e0d5.5e0c.1c2e  ARPA   Vlan701
+Internet  192.168.213.45        101   accc.8ebd.b9ca  ARPA   Vlan701
+Internet  192.168.213.46         82   accc.8ebd.b9da  ARPA   Vlan701
+Internet  192.168.213.48          1   0200.00cb.dfb8  ARPA   Vlan701
+Internet  192.168.213.50          0   0200.00ae.ee9f  ARPA   Vlan701
+Internet  192.168.213.51          1   0200.00f0.b299  ARPA   Vlan701
+Internet  192.168.213.52          3   0200.0019.0895  ARPA   Vlan701
+Internet  192.168.213.53          3   0200.003f.18cc  ARPA   Vlan701
+Internet  192.168.213.54          4   0040.8421.7b11  ARPA   Vlan701
+Internet  192.168.213.56          0   80be.af65.1bfd  ARPA   Vlan701
+Internet  192.168.213.57          0   0854.11e3.e44c  ARPA   Vlan701
+Internet  192.168.213.58          1   c06d.ed67.ece1  ARPA   Vlan701
+Internet  192.168.213.59          1   c06d.ed67.ed3b  ARPA   Vlan701
+Internet  192.168.213.60          1   c06d.ed67.ed32  ARPA   Vlan701
+Internet  192.168.213.62        123   0090.e83f.f4c8  ARPA   Vlan701
+Internet  192.168.215.97          -   cc98.91f1.79f9  ARPA   Vlan825
+Internet  192.168.215.98          1   0200.0017.81fd  ARPA   Vlan825
+Internet  192.168.215.99          1   7069.79ee.3145  ARPA   Vlan825
+Internet  192.168.215.100         1   7069.79ee.31cf  ARPA   Vlan825
+Internet  192.168.215.101        15   0004.a311.db3c  ARPA   Vlan825
+Internet  192.168.215.102         1   0200.006c.f18f  ARPA   Vlan825
+Internet  192.168.215.103       251   0030.6f84.20dd  ARPA   Vlan825
+Internet  192.168.215.104         4   0030.6f84.20bd  ARPA   Vlan825
+----------------------------------------
+
+Command: show vlan
+Executed at: 2024-08-13 11:13:10
+Output:
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Te1/0/12, Te2/1/4, Gi3/0/1, Gi3/0/7, Gi3/0/8, Gi3/0/19, Gi3/0/23, Gi3/0/24, Gi3/0/35, Gi3/0/37, Gi3/0/38, Gi3/0/41, Gi3/0/42, Gi3/0/44, Gi3/0/45
+10   TMP_IPSEC                        active    
+35   xDSL-2000                        active    
+39   PPPoE_39                         active    
+48   Engeneering_Korpus               active    
+65   KUB-RLL                          active    
+69   Outside_ASA                      active    
+82   VLAN0082                         active    
+84   ElektroremontERC                 active    
+92   EDS                              active    
+93   VLAN0093                         active    
+100  VLAN0100                         active    
+108  CTD                              active    
+124  GUEST_P2A                        active    
+131  Dochernih_organiziy              active    
+200  TIZ                              active    Gi3/0/4, Gi3/0/14, Gi3/0/16, Gi3/0/39
+206  PRINT                            active    
+211  UPS                              active    
+227  PVES                             active    
+234  OSK_PROF22                       active    
+270  VLAN0270                         active    
+295  DEVICES                          active    Gi3/0/14
+307  tmp_unifi_1                      active    
+308  tmp_unifi_2                      active    
+319  Management_CTD                   active    
+386  Poligrafiya                      active    
+470  pppoe_ctd                        active    
+511  ISOLATE                          active    
+533  LSO                              active    
+561  P2A_users                        active    Gi3/0/21
+611  Dumenkov_students                active    
+669  VTORSIP                          active    
+671  MEK                              active    
+675  ER                               active    
+697  DSL-5000                         active    
+698  Vlan4_CUB                        active    
+699  MMZ                              active    
+700  P2A-MMZ                          active    
+701  SKD-CTD                          active    
+703  MNG_P2A                          active    Gi3/0/2, Gi3/0/5, Gi3/0/6, Gi3/0/12, Gi3/0/13, Gi3/0/22, Gi3/0/25, Gi3/0/26, Gi3/0/27, Gi3/0/28, Gi3/0/29, Gi3/0/30, Gi3/0/31, Gi3/0/32, Gi3/0/33, Gi3/0/34, Gi3/0/36, Gi3/0/40, Gi3/0/43, Gi3/0/47
+704  Continent                        active    
+705  VideoCONF                        active    
+706  ORACLE_learn                     active    
+708  Managment_Dlink                  active    
+714  PERSONAL                         active    
+715  VLAN0715                         active    
+718  VOIP                             active    
+719  VLAN0719                         active    
+723  SKD_MEK                          active    
+725  VLAN0725                         active    
+728  UPS_P2a                          active    Gi3/0/9, Gi3/0/10, Gi3/0/11, Gi3/0/15, Gi3/0/20
+729  VLAN0729                         act/lshut 
+759  MRK_CRMO1_PECH                   active    
+762  MRK_ADSL                         active    
+802  VLAN0802                         active    
+809  Vlan_Enorgouchet                 active    
+814  NORMA-SKD                        active    
+825  SKD_PSOUZ                        active    
+870  Avaya_CNA                        active    
+872  Avaya_CustNet                    active    
+873  Avaya_CNB                        active    
+889  SKD                              active    
+903  VLAN0903                         active    
+911  IP_TEL                           active    
+917  MSCH_CMK                         active    
+942  RSPAN_Infoblox                   active    
+962  MNG_SB_SCHOOL                    active    
+963  VIDEO_SB_SCHOOL                  active    
+964  USERS_SB_SCHOOL                  active    
+965  PERSONAL_SB                      active    
+978  VDI-UBPC-xDSL                    active    
+995  VDI-HW-Management                active    
+1002 fddi-default                     act/unsup 
+1003 token-ring-default               act/unsup 
+1004 fddinet-default                  act/unsup 
+1005 trnet-default                    act/unsup 
+1300 VLAN1300                         active    
+2303 STUDENTS_tmp                     active    
+2304 MMZ_OSFP                         active    
+
+VLAN Type  SAID       MTU   Parent RingNo BridgeNo Stp  BrdgMode Trans1 Trans2
+---- ----- ---------- ----- ------ ------ -------- ---- -------- ------ ------
+1    enet  100001     1500  -      -      -        -    -        0      0   
+10   enet  100010     1500  -      -      -        -    -        0      0   
+35   enet  100035     1500  -      -      -        -    -        0      0   
+39   enet  100039     1500  -      -      -        -    -        0      0   
+48   enet  100048     1500  -      -      -        -    -        0      0   
+65   enet  100065     1500  -      -      -        -    -        0      0   
+69   enet  100069     1500  -      -      -        -    -        0      0   
+82   enet  100082     1500  -      -      -        -    -        0      0   
+84   enet  100084     1500  -      -      -        -    -        0      0   
+92   enet  100092     1500  -      -      -        -    -        0      0   
+93   enet  100093     1500  -      -      -        -    -        0      0   
+100  enet  100100     1500  -      -      -        -    -        0      0   
+108  enet  100108     1500  -      -      -        -    -        0      0   
+124  enet  100124     1500  -      -      -        -    -        0      0   
+131  enet  100131     1500  -      -      -        -    -        0      0   
+200  enet  100200     1500  -      -      -        -    -        0      0   
+206  enet  100206     1500  -      -      -        -    -        0      0   
+211  enet  100211     1500  -      -      -        -    -        0      0   
+227  enet  100227     1500  -      -      -        -    -        0      0   
+234  enet  100234     1500  -      -      -        -    -        0      0   
+270  enet  100270     1500  -      -      -        -    -        0      0   
+295  enet  100295     1500  -      -      -        -    -        0      0   
+307  enet  100307     1500  -      -      -        -    -        0      0   
+308  enet  100308     1500  -      -      -        -    -        0      0   
+319  enet  100319     1500  -      -      -        -    -        0      0   
+386  enet  100386     1500  -      -      -        -    -        0      0   
+470  enet  100470     1500  -      -      -        -    -        0      0   
+511  enet  100511     1500  -      -      -        -    -        0      0   
+533  enet  100533     1500  -      -      -        -    -        0      0   
+561  enet  100561     1500  -      -      -        -    -        0      0   
+611  enet  100611     1500  -      -      -        -    -        0      0   
+669  enet  100669     1500  -      -      -        -    -        0      0   
+671  enet  100671     1500  -      -      -        -    -        0      0   
+675  enet  100675     1500  -      -      -        -    -        0      0   
+697  enet  100697     1500  -      -      -        -    -        0      0   
+698  enet  100698     1500  -      -      -        -    -        0      0   
+699  enet  100699     1500  -      -      -        -    -        0      0   
+700  enet  100700     1500  -      -      -        -    -        0      0   
+701  enet  100701     1500  -      -      -        -    -        0      0   
+703  enet  100703     1500  -      -      -        -    -        0      0   
+704  enet  100704     1500  -      -      -        -    -        0      0   
+705  enet  100705     1500  -      -      -        -    -        0      0   
+706  enet  100706     1500  -      -      -        -    -        0      0   
+708  enet  100708     1500  -      -      -        -    -        0      0   
+714  enet  100714     1500  -      -      -        -    -        0      0   
+715  enet  100715     1500  -      -      -        -    -        0      0   
+718  enet  100718     1500  -      -      -        -    -        0      0   
+719  enet  100719     1500  -      -      -        -    -        0      0   
+723  enet  100723     1500  -      -      -        -    -        0      0   
+725  enet  100725     1500  -      -      -        -    -        0      0   
+728  enet  100728     1500  -      -      -        -    -        0      0   
+729  enet  100729     1500  -      -      -        -    -        0      0   
+759  enet  100759     1500  -      -      -        -    -        0      0   
+762  enet  100762     1500  -      -      -        -    -        0      0   
+802  enet  100802     1500  -      -      -        -    -        0      0   
+809  enet  100809     1500  -      -      -        -    -        0      0   
+814  enet  100814     1500  -      -      -        -    -        0      0   
+825  enet  100825     1500  -      -      -        -    -        0      0   
+870  enet  100870     1500  -      -      -        -    -        0      0   
+872  enet  100872     1500  -      -      -        -    -        0      0   
+873  enet  100873     1500  -      -      -        -    -        0      0   
+889  enet  100889     1500  -      -      -        -    -        0      0   
+903  enet  100903     1500  -      -      -        -    -        0      0   
+911  enet  100911     1500  -      -      -        -    -        0      0   
+917  enet  100917     1500  -      -      -        -    -        0      0   
+942  enet  100942     1500  -      -      -        -    -        0      0   
+962  enet  100962     1500  -      -      -        -    -        0      0   
+963  enet  100963     1500  -      -      -        -    -        0      0   
+964  enet  100964     1500  -      -      -        -    -        0      0   
+965  enet  100965     1500  -      -      -        -    -        0      0   
+978  enet  100978     1500  -      -      -        -    -        0      0   
+995  enet  100995     1500  -      -      -        -    -        0      0   
+1002 fddi  101002     1500  -      -      -        -    -        0      0   
+1003 tr    101003     1500  -      -      -        -    -        0      0   
+1004 fdnet 101004     1500  -      -      -        ieee -        0      0   
+1005 trnet 101005     1500  -      -      -        ibm  -        0      0   
+1300 enet  101300     1500  -      -      -        -    -        0      0   
+2303 enet  102303     1500  -      -      -        -    -        0      0   
+2304 enet  102304     1500  -      -      -        -    -        0      0   
+
+Remote SPAN VLANs
+------------------------------------------------------------------------------
+
+
+Primary Secondary Type              Ports
+------- --------- ----------------- ------------------------------------------
+
+----------------------------------------
+
